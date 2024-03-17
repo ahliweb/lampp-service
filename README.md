@@ -8,3 +8,6 @@ lampp service for autorun linux xampp 8.1
 sudo systemctl enable xampp.service
 #### 2
 sudo systemctl start xampp.service
+
+#### unmask unit 
+sudo systemctl unmask xampp.service
